@@ -22,8 +22,7 @@ h1
 #todo
 {
 	margin: auto;
-	width: 50%;
-	max-width: 800px;
+	width: 500px;
 	background: white;
 	box-shadow: 0 4px 12px -9px black;
 	border-radius: 6px;
@@ -59,14 +58,13 @@ h1
 #list li:hover
 {
 	background: #eee;
-	color: pink;
 }
 
 #list li.item
 {
 	display: flex;
 	width: 100%
-	padding: 20px 30px 10px 30px;
+	padding: 20px 30px 10px 30px !important;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box
@@ -78,6 +76,7 @@ li.item span
 	font-size: 24px;
 	flex-grow: 1;
 	color: #595959;
+	padding-left: 30px;
 }
 
 li.item a
@@ -110,8 +109,8 @@ input
 	border-radius: 0px;
 	border: none;
 	background: #f6f4f4;
-	border-bottom: 2px solid #e5e5e5;
-	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+	width: 410px;
 	font-size: 40px;
 	color: #696969;
 	padding: 30px 45px;
